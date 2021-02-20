@@ -2,7 +2,9 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "hoist": "lerna clean && lerna bootstrap --hoist"
+    "hoist": "lerna clean && lerna bootstrap --hoist",
+    "start": "lerna run start --stream",
+    "dev": "lerna run dev --stream"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
