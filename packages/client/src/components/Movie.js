@@ -19,7 +19,7 @@ const Movie = ({ id, title, isLiked }) => {
       </Link>
       <button onClick={toggleLikeMovie}>{isLiked ? 'Unlike' : 'Like'}</button>
     </div>
-  )
-}
+  );
+};
 
-export default Movie
+export default Movie;

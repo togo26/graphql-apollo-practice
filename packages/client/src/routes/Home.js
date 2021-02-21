@@ -24,7 +24,7 @@ const Home = () => {
         <Movie key={movie.id} id={movie.id} title={movie.title} isLiked={movie.isLiked}  />
       )}
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
